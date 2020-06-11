@@ -1,9 +1,9 @@
 
 let message = {}
 
-message.subject = "Deixe de ser Conivente"
+message.subject = "Fila Unica"
 message.encoded_subject = encodeURIComponent(message.subject)
-message.body = "Vossa Excelência aprovaria a abertura um processo de impeachment contra o Excelentíssimo Senhor Presidente da República Jair Messias Bolsonaro?\n\nDestaca-se o apartidário pedido de impeachment da Associação Brasileira de Imprensa: http://www.abi.org.br/wp-content/uploads/2020/05/Documento-impeachment.pdf\n\nAcesse https://cognocoder.github.io/coniventes/html/responder.html para responder e deixar de ser Conivente. Utilize seu e-mail oficial e lembre-se, para não ser Conivente, é necessário uma resposta afirmativa.\n\nhttps://cognocoder.github.io/coniventes/"
+message.body = "Vossa Excelência aprovaria o Projeto de Lei 2176/2020?\n\nDestaca-se o estudo  feito pelo economista Samy Dana e pelo matemático e estatístico Alexandre Simas. O documento, que tem como co-autores José Gallucci, Bruno Filardi, Rodrigo Rodriguez, foi encomendado pela Easynvest: https://investnews.com.br/relatorios/relatorio_covid_v2.pdf\n\nAcesse https://melhor-saude.github.io/coniventes/html/responder.html para responder e deixar de ser Conivente. Utilize seu e-mail oficial e lembre-se, para não ser Conivente, é necessário uma resposta afirmativa.\n\n https://melhor-saude.github.io/coniventes/"
 message.encoded_body = encodeURIComponent(message.body)
 
 function GetMailLink(to, cc, subject, body) {
